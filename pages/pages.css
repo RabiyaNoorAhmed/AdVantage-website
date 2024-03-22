@@ -1,0 +1,235 @@
+.project_banner{
+    padding: 20px;
+    margin-top: 60px;
+    background-color: rgba(185, 132, 253, 0.2);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20%;
+}
+.home_pro{
+    line-height: 2.5;
+    color: var(--main-color2);
+    word-spacing: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.pro_success{
+    color: var(--main-color);
+    font-weight: 800;
+    font-size: 45px;
+    text-align: center;
+}
+.project_img img{
+    width: 70%;
+    height: 100%;
+    margin-top: 60px;
+}
+/*=====Services Start=====*/
+.services {
+    padding: 5rem;
+}
+
+.services .pro-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(34rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .pro {
+    background: rgb(245, 253, 255);
+    border-radius: 1rem;
+    padding: 3rem;
+    text-align: center;
+    border: 2px solid rgb(245, 253, 255);
+}
+.services .pro:hover{
+    border: 2px solid var(--main-color2);
+}
+
+.services .pro h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.services .pro p {
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--text);
+    line-height: 2;
+
+}
+.test {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-image: url(../images/protest.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.test::before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    right: -10px;
+    background-image: url(../images/protest2.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    width: 50%;
+    height: 70%;
+    z-index: 1;
+}
+.test-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.test-img{
+    flex: 1;
+    margin: 190px 30px;
+    max-width:100% ;
+
+}
+.test-img img{
+    width: 100%;
+}
+.test-content{
+    flex: 1;
+    margin: 40px;
+    padding: 20px;
+}
+.test-content span{
+    font-size: 22px;
+    color: var(--white);
+    font-weight: 700;
+}
+.test-content h1{
+    color: var(--main-color);
+    font-size: 43px;
+    margin-top: 30px;
+}
+.test-content p{
+    margin-top: 30px;
+    color: var(--white);
+    font-size: 20px;
+}
+.test-content h4{
+    color: var(--white);
+    font-weight: 700;
+    margin-top: 40px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+/*=====Destination Start=====*/
+.destination {
+    padding: 5rem;
+    background-color: var(--main-color2);
+    border-radius: 150px 50px;
+}
+
+.destination .d-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.destination .dbox {
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(245, 253, 255,0.2);
+}
+
+.destination .dbox:hover img {
+    transform: scale(1.1);
+}
+
+.destination .dbox .image {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.destination .dbox .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.d-box {
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.d-box h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.d-box p {
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: var(--white);
+    line-height: 2;
+}
+
+
+
+/*=====Destination End=====*/
+.blog {
+    padding: 5rem;
+    border-radius: 150px 50px;
+}
+
+.blog .blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+}
+
+.blog .blog-box {
+    overflow: hidden;
+    border-radius: 10px;
+    background: rgba(235, 192, 215, 0.2);
+}
+
+.blog .blog-box:hover img {
+    transform: scale(1.1);
+}
+
+.blog .blog-box .image {
+    height: 20rem;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.blog .blog-box .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.b-box {
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.b-box h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+.b-box p {
+    padding: 1rem;
+    font-size: 1.4rem;
+    color: var(--text);
+    line-height: 2;
+}
